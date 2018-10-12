@@ -1,0 +1,21 @@
+/* This is for vscode */
+
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 18,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/*.pyc": true,
+    "**/htmlcov": true,
+    "**/node_modules": true
+  },
+  "editor.formatOnSave": true,
+  "search.followSymlinks": false,
+  "python.formatting.provider": "yapf",
+  "python.formatting.yapfArgs": [
+    "--style",
+    "{based_on_style: google, allow_split_before_dict_value: False, column_limit: 79}"
+  ],
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django"]
+}
